@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ajax-dev-in-test-new"
+version = "0.1.0"
+description = ""
+authors = ["Igor-Mozharov <r5@ukr.net>"]
+readme = "README.md"
+packages = [{include = "ajax_dev_in_test_new"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+appium-python-client = "3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
